@@ -12,7 +12,7 @@ const ListData = async () => {
       <div>
         {
             data.map((s) => (
-                <div key={s.id} className="mb-1">{s.description}</div>
+                <div key={s.id} className="mb-1">{s.description} {`${s.ep}` === 'true' && (<span>ep</span>)}</div>
             ))
         }
       </div>
