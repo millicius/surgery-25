@@ -1,5 +1,5 @@
 {
-  "id": "f69ef8b2-a4b1-47fe-8199-b44dd643e293",
+  "id": "b8741a6c-036b-4994-8bc1-39b6d12773b6",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -14,23 +14,11 @@
           "primaryKey": true,
           "notNull": true
         },
-        "urgent": {
-          "name": "urgent",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
-        },
         "description": {
           "name": "description",
           "type": "text",
           "primaryKey": false,
           "notNull": true
-        },
-        "prosthesis": {
-          "name": "prosthesis",
-          "type": "boolean",
-          "primaryKey": false,
-          "notNull": false
         }
       },
       "indexes": {},

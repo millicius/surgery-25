@@ -1,1 +1,0 @@
-ALTER TABLE "surgery" ALTER COLUMN "prosthesis" SET DEFAULT false;
