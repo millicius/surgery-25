@@ -8,6 +8,10 @@ const SuperForm = () => {
             <textarea className="w-full outline-none p-1" name="description" placeholder="operacijos pavadinimas"></textarea>
         </div>
         <div>
+          <label>EP</label>
+          <input type="checkbox" name="ep" />
+        </div>
+        <div>
           <label>Choose a plan:</label>
 
 <select className="mb-5" name="urgent">
