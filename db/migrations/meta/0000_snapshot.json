@@ -1,5 +1,5 @@
 {
-  "id": "b8741a6c-036b-4994-8bc1-39b6d12773b6",
+  "id": "70b7ad46-0aee-4497-b815-add6e4b229ac",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -16,6 +16,12 @@
         },
         "description": {
           "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "urgent": {
+          "name": "urgent",
           "type": "text",
           "primaryKey": false,
           "notNull": true
